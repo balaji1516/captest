@@ -1,0 +1,11 @@
+fetch('https://proud-plant-009250510.3.azurestaticapps.net', {
+  method: 'GET', // or 'POST' or other HTTP methods
+  // Headers and other request parameters
+})
+  .then(response => response.json())
+  .then(data => {
+    // Handle the API response data
+  })
+  .catch(error => {
+    // Handle errors
+  });
